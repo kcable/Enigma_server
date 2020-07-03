@@ -128,7 +128,7 @@ def Decrypt():
 
 
 def Main():
-    host = '127.0.0.1'
+    host = '127.0.0.1' #put server ip here/ currently set up for local testing  
     port = 5000
 
     s = socket.socket()
